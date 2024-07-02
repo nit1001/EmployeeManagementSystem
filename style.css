@@ -1,0 +1,65 @@
+.modal{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 10;
+    background-color: rgba(255, 235, 205, 0.479);
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.modal-body{
+    background-color: rgba(128, 128, 128, 0.464);
+    padding: 30px;
+}
+
+.create{
+    background-color: rgba(0, 0, 13, 0.962);
+    color:white;
+    font-weight: 600;
+}
+.modal-body form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.show-modal{
+    display: flex;
+}
+
+.hide-modal{
+    display: none;
+}
+
+.close-icon{
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor: pointer;
+}
+
+.Employee-list{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.Employee-list, th, td{
+    border:1px solid black;
+}
+.Employee-list, td{
+    text-align: center;
+    padding:10px;
+
+}
+
+.Employee-list tbody button{
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px #07e7e7;
+    cursor:pointer;
+}
